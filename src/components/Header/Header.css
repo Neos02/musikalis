@@ -1,0 +1,39 @@
+.Header__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 6.25rem;
+}
+
+.Header__nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+  list-style-type: none;
+}
+
+.Header__nav li {
+  position: relative;
+  cursor: pointer;
+}
+
+.Header__nav li::after {
+  content: "";
+  position: absolute;
+  bottom: -0.25rem;
+  display: block;
+  width: 100%;
+  border-bottom: 2px solid transparent;
+  transition: all 0.1s linear;
+}
+
+.Header__nav li:hover::after {
+  border-bottom: 2px solid rgb(var(--green));
+}
+
+.Header__auth-btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

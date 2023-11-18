@@ -3,10 +3,17 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import "./Button.css";
 
-const Button = ({ label, backgroundColor, textColor, icon, ...props }) => {
+const Button = ({
+  label,
+  backgroundColor,
+  textColor,
+  icon,
+  bold = false,
+  ...props
+}) => {
   return (
     <button
-      className="Button__button"
+      className={`Button__button ${bold ? "header-4" : ""}`}
       style={{ backgroundColor, color: textColor }}
       {...props}
     >

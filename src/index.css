@@ -25,7 +25,12 @@ body {
   font-family: "Inter", Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: rgb(var(--gray));
+  background: radial-gradient(
+    circle at 90% 5rem,
+    color-mix(in srgb, lightblue, rgb(var(--gray)) 60%) 0%,
+    rgb(var(--gray)) 54%
+  );
+  background-repeat: no-repeat;
   color: white;
 }
 

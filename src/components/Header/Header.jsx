@@ -29,11 +29,7 @@ const Header = () => {
       </nav>
 
       <div className="Header__auth-btns">
-        <Button
-          label="Sign In"
-          backgroundColor={`rgb(${gray})`}
-          textColor="white"
-        />
+        <a href="#">Sign in</a>
         <Button label="Sign Up" backgroundColor={`rgb(${green})`} />
       </div>
     </header>

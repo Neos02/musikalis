@@ -21,6 +21,7 @@ html {
 
 body {
   margin: 0;
+  padding: 0 6.25rem;
   font-family: "Inter", Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -37,14 +38,14 @@ h1,
 .header-1 {
   margin: 0;
   font-size: 3rem;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 h2,
 .header-2 {
   margin: 0;
   font-size: 2rem;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 h3,
@@ -57,8 +58,17 @@ h3,
 h4,
 .header-4 {
   margin: 0;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
+}
+
+.text-large {
+  font-size: 1.25rem;
+}
+
+p,
+.text-medium {
+  font-size: 1rem;
 }
 
 a {

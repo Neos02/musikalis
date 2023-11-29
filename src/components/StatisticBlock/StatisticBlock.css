@@ -1,0 +1,23 @@
+.StatisticBlock__container {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 14rem;
+  height: 8rem;
+  border-radius: 20px;
+  background: linear-gradient(
+    to bottom,
+    color-mix(in srgb, white, rgb(var(--gray)) 90%),
+    color-mix(in srgb, black, rgb(var(--gray)) 85%)
+  );
+}
+
+.StatisticBlock__container p {
+  margin: 0;
+}
+
+.StatisticBlock__unit {
+  opacity: 0.5;
+}

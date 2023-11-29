@@ -1,0 +1,14 @@
+.OvalImage__border {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 0.25rem;
+  overflow: hidden;
+}
+
+.OvalImage__container {
+  overflow: hidden;
+}
+
+.OvalImage__container img {
+  object-fit: cover;
+  object-position: 50% 50%;
+}

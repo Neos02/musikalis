@@ -67,6 +67,8 @@ function App() {
         <StatisticBlock count="320K" unit="Customers" />
         <StatisticBlock count="47K" unit="Tracks" />
       </div>
+
+      <div className="App__sponsors"></div>
     </div>
   );
 }

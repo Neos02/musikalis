@@ -1,13 +1,18 @@
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
-import Header from "./components/Header/Header";
-import Button from "./components/Button/Button";
-import { blue, gray, green } from "./colors";
-import DjImage from "./assets/images/low-angle-female-dj-club.jpg";
+import "./App.css";
+import DorfusLogo from "./assets/images/Dorfus.svg";
+import GobonaLogo from "./assets/images/Gobona.svg";
+import MartinoLogo from "./assets/images/Martino.svg";
+import PaperzLogo from "./assets/images/Paperz.svg";
+import SquareLogo from "./assets/images/Square.svg";
 import MicImage from "./assets/images/black-standing-micropfone-studio.png";
+import DjImage from "./assets/images/low-angle-female-dj-club.jpg";
+import { blue, gray, green } from "./colors";
+import Button from "./components/Button/Button";
+import Header from "./components/Header/Header";
 import OvalImage from "./components/OvalImage/OvalImage";
 import StatisticBlock from "./components/StatisticBlock/StatisticBlock";
-import "./App.css";
 
 function App() {
   return (
@@ -68,7 +73,13 @@ function App() {
         <StatisticBlock count="47K" unit="Tracks" />
       </div>
 
-      <div className="App__sponsors"></div>
+      <div className="App__sponsors">
+        <img src={PaperzLogo} className="App__sponsor-image" />
+        <img src={DorfusLogo} className="App__sponsor-image" />
+        <img src={MartinoLogo} className="App__sponsor-image" />
+        <img src={SquareLogo} className="App__sponsor-image" />
+        <img src={GobonaLogo} className="App__sponsor-image" />
+      </div>
     </div>
   );
 }

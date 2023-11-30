@@ -73,3 +73,13 @@
   gap: 1.5rem;
   margin: 5rem 0 8rem 0;
 }
+
+.App__sponsors {
+  display: flex;
+  justify-content: space-between;
+  margin: 12rem 0;
+}
+
+.App__sponsor-image {
+  height: 3.5rem;
+}

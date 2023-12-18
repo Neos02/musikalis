@@ -14,6 +14,7 @@ const Genre = ({
     <div className="Genre__container">
       <OvalImage
         src={imageSrc}
+        alt={label}
         width="18rem"
         height="26rem"
         scale={imageScale}

@@ -53,7 +53,13 @@ function App() {
         </div>
 
         <div className="App__hero-images">
-          <OvalImage src={DjImage} width="18rem" height="34rem" border={true} />
+          <OvalImage
+            src={DjImage}
+            alt="DJ"
+            width="18rem"
+            height="34rem"
+            border={true}
+          />
 
           <div className="App__hero-images-right">
             <div className="App__hero-percent-statistic">
@@ -65,6 +71,7 @@ function App() {
 
             <OvalImage
               src={MicImage}
+              alt="Microphone"
               width="14rem"
               height="19rem"
               imageBg={`linear-gradient(to bottom, color-mix(in srgb, white, rgb(${green})) -25%, rgb(${blue}))`}
@@ -131,6 +138,13 @@ function App() {
         Musikalis is the best music platform ever created, Musikalis aims to
         give new singers a place to express their work.
       </h1>
+
+      <div className="App__features">
+        <div className="App__features-header">
+          <h1>Best Features</h1>
+          <div className="App__header-line" />
+        </div>
+      </div>
     </div>
   );
 }

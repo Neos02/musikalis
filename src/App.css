@@ -114,3 +114,17 @@
   font-size: 4rem;
   font-weight: 400;
 }
+
+.App__features-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  opacity: 0.9;
+}
+
+.App__header-line {
+  flex: 1;
+  height: 2px;
+  background-color: white;
+}

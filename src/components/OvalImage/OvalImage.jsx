@@ -11,6 +11,7 @@ const OvalImage = ({
   imageX = "50%",
   imageY = "50%",
   scale = 1,
+  alt = "",
   ...props
 }) => {
   return (
@@ -38,6 +39,7 @@ const OvalImage = ({
             objectPosition: `${imageX} ${imageY}`,
             transform: `scale(${scale})`,
           }}
+          alt={alt}
         />
       </div>
     </div>

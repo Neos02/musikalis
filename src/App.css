@@ -83,3 +83,23 @@
 .App__sponsor-image {
   height: 3.5rem;
 }
+
+.App__genre-cta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.App__genre-label {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  opacity: 0.9;
+}
+
+.App__genre-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

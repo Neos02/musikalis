@@ -8,6 +8,9 @@ const OvalImage = ({
   height,
   border = false,
   imageBg = "white",
+  imageX = "50%",
+  imageY = "50%",
+  scale = 1,
   ...props
 }) => {
   return (
@@ -32,6 +35,8 @@ const OvalImage = ({
           style={{
             width,
             height,
+            objectPosition: `${imageX} ${imageY}`,
+            transform: `scale(${scale})`,
           }}
         />
       </div>

@@ -6,6 +6,10 @@ import GobonaLogo from "./assets/images/Gobona.svg";
 import MartinoLogo from "./assets/images/Martino.svg";
 import PaperzLogo from "./assets/images/Paperz.svg";
 import SquareLogo from "./assets/images/Square.svg";
+import BillieEilish from "./assets/images/billie-eilish.jpeg";
+import TaylorSwift from "./assets/images/taylor-swift.jpeg";
+import ShirleyManson from "./assets/images/shirley-manson.jpeg";
+import JennieKim from "./assets/images/jennie-kim.jpeg";
 import MicImage from "./assets/images/black-standing-micropfone-studio.png";
 import DjImage from "./assets/images/low-angle-female-dj-club.jpg";
 import { blue, gray, green } from "./colors";
@@ -13,6 +17,7 @@ import Button from "./components/Button/Button";
 import Header from "./components/Header/Header";
 import OvalImage from "./components/OvalImage/OvalImage";
 import StatisticBlock from "./components/StatisticBlock/StatisticBlock";
+import Genre from "./components/Genre/Genre";
 
 function App() {
   return (
@@ -79,6 +84,47 @@ function App() {
         <img src={MartinoLogo} className="App__sponsor-image" />
         <img src={SquareLogo} className="App__sponsor-image" />
         <img src={GobonaLogo} className="App__sponsor-image" />
+      </div>
+
+      <div className="App__genres">
+        <div className="App__genre-cta">
+          <div className="App__genre-label">
+            <h1>Choose your favorite genre</h1>
+            <p>
+              Music genres from all over the world are here, choose one of them.
+            </p>
+          </div>
+
+          <Button
+            label="See More"
+            icon={faArrowRight}
+            backgroundColor={`rgb(${green})`}
+          />
+        </div>
+
+        <div className="App__genre-list">
+          <Genre label="R&B" imageSrc={BillieEilish} />
+          <Genre
+            label="Pop"
+            imageSrc={TaylorSwift}
+            imageScale={1.3}
+            imageX="2rem"
+            imageY="1.25rem"
+          />
+          <Genre
+            label="Rock"
+            imageSrc={ShirleyManson}
+            imageScale={1.2}
+            imageY="2rem"
+          />
+          <Genre
+            label="Hip Hop"
+            imageSrc={JennieKim}
+            imageScale={1.3}
+            imageX="1rem"
+            imageY="-2.5rem"
+          />
+        </div>
       </div>
     </div>
   );

@@ -126,6 +126,11 @@ function App() {
           />
         </div>
       </div>
+
+      <h1 className="App__statement">
+        Musikalis is the best music platform ever created, Musikalis aims to
+        give new singers a place to express their work.
+      </h1>
     </div>
   );
 }

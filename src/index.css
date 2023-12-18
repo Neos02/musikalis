@@ -27,8 +27,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: radial-gradient(
     circle at 90% 5rem,
-    color-mix(in srgb, lightblue, rgb(var(--gray)) 60%) 0%,
-    rgb(var(--gray)) 54%
+    color-mix(in srgb, lightblue, rgb(var(--gray)) 60%) 0,
+    rgb(var(--gray)) 50rem
   );
   background-repeat: no-repeat;
   color: white;

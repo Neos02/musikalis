@@ -103,3 +103,14 @@
   justify-content: space-between;
   align-items: center;
 }
+
+.App__statement {
+  width: 80%;
+  margin: 12rem auto;
+  background: linear-gradient(to bottom, white, rgba(255, 255, 255, 0.5));
+  background-clip: text;
+  color: transparent;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 400;
+}

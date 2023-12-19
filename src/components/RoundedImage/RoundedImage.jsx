@@ -4,8 +4,8 @@ import "./RoundedImage.css";
 
 const RoundedImage = ({
   src,
-  width,
-  height,
+  width = "10rem",
+  height = "10rem",
   border = false,
   borderRadius = width,
   imageBg = "white",

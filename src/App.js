@@ -10,6 +10,9 @@ import BillieEilish from "./assets/images/billie-eilish.jpeg";
 import TaylorSwift from "./assets/images/taylor-swift.jpeg";
 import ShirleyManson from "./assets/images/shirley-manson.jpeg";
 import JennieKim from "./assets/images/jennie-kim.jpeg";
+import ProfilePicture1 from "./assets/images/profile-picture-1.jpg";
+import ProfilePicture2 from "./assets/images/profile-picture-2.jpg";
+import ProfilePicture3 from "./assets/images/profile-picture-3.jpg";
 import MicImage from "./assets/images/black-standing-micropfone-studio.png";
 import DjImage from "./assets/images/low-angle-female-dj-club.jpg";
 import MixingImage from "./assets/images/high-angle-woman-as-dj-mixing-entertaining.jpg";
@@ -20,6 +23,7 @@ import RoundedImage from "./components/RoundedImage/RoundedImage";
 import StatisticBlock from "./components/StatisticBlock/StatisticBlock";
 import Genre from "./components/Genre/Genre";
 import FeatureItem from "./components/FeatureItem/FeatureItem";
+import Testimonial from "./components/Testimonial/Testimonial";
 
 const features = [
   {
@@ -33,6 +37,37 @@ const features = [
   {
     header: "Premium Quality",
     body: "Premium quality that makes Musikalis more elegant and more comfortable to hear",
+  },
+];
+
+const testimonials = [
+  {
+    rating: 4,
+    text: "Musikalis really helps bring my song to new listeners. Finding people who love my music makes a burnt out spirit blaze again.",
+    author: "Didier Drogba",
+    date: new Date("01/08/2021"),
+    photo: ProfilePicture3,
+  },
+  {
+    rating: 5,
+    text: "It's magical to be able to move between generations and discover that funk is still more alive than ever.",
+    author: "Alexander",
+    date: new Date("02/09/2021"),
+    photo: ProfilePicture1,
+  },
+  {
+    rating: 4,
+    text: "Musikalis was crucial to making the track even more popular... I have the feeling that this will be only the start of an incredible partnership.",
+    author: "Martha Nui",
+    date: new Date("11/27/2020"),
+    photo: ProfilePicture2,
+  },
+  {
+    rating: 5,
+    text: "The integration between Musikalis and TikTok also makes it easy for new musicians to introduce their music to social media users.",
+    author: "Jimmy Sullivan",
+    date: new Date("03/18/2021"),
+    photo: ProfilePicture3,
   },
 ];
 
@@ -193,6 +228,25 @@ function App() {
             borderRadius="1.25rem 1.25rem 1.25rem 16rem"
             alt="DJ Mixing"
           />
+        </div>
+      </div>
+
+      <div className="App__testimonials">
+        <div className="App__testimonial-header">
+          <h1>Testimonials from customers</h1>
+          <p>Our providers take a hands-on approach to help you see</p>
+        </div>
+
+        <div className="App__testimonial-list">
+          {testimonials.map((testimonial) => (
+            <Testimonial
+              rating={testimonial.rating}
+              text={testimonial.text}
+              author={testimonial.author}
+              date={testimonial.date}
+              photo={testimonial.photo}
+            />
+          ))}
         </div>
       </div>
     </div>

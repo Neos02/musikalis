@@ -1,7 +1,7 @@
 import React from "react";
 
 import Button from "../Button/Button";
-import { gray, green } from "../../colors";
+import { green } from "../../colors";
 import "./Header.css";
 
 const Header = () => {

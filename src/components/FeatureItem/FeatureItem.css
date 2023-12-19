@@ -1,0 +1,10 @@
+.FeatureItem__container {
+  display: flex;
+  gap: 1.5rem;
+  padding: 2rem;
+  border-radius: 1.25rem;
+}
+
+.FeatureItem__number {
+  margin-top: 1rem;
+}

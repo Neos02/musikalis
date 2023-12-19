@@ -12,12 +12,29 @@ import ShirleyManson from "./assets/images/shirley-manson.jpeg";
 import JennieKim from "./assets/images/jennie-kim.jpeg";
 import MicImage from "./assets/images/black-standing-micropfone-studio.png";
 import DjImage from "./assets/images/low-angle-female-dj-club.jpg";
+import MixingImage from "./assets/images/high-angle-woman-as-dj-mixing-entertaining.jpg";
 import { blue, gray, green } from "./colors";
 import Button from "./components/Button/Button";
 import Header from "./components/Header/Header";
-import OvalImage from "./components/OvalImage/OvalImage";
+import RoundedImage from "./components/RoundedImage/RoundedImage";
 import StatisticBlock from "./components/StatisticBlock/StatisticBlock";
 import Genre from "./components/Genre/Genre";
+import FeatureItem from "./components/FeatureItem/FeatureItem";
+
+const features = [
+  {
+    header: "The Best Price",
+    body: "We offer very cheap and very affordable monthly member prices for you",
+  },
+  {
+    header: "Copyright Free",
+    body: "Royalty-free music to download or play online - Get unlimited access to over 40,000 tracks",
+  },
+  {
+    header: "Premium Quality",
+    body: "Premium quality that makes Musikalis more elegant and more comfortable to hear",
+  },
+];
 
 function App() {
   return (
@@ -53,7 +70,7 @@ function App() {
         </div>
 
         <div className="App__hero-images">
-          <OvalImage
+          <RoundedImage
             src={DjImage}
             alt="DJ"
             width="18rem"
@@ -69,7 +86,7 @@ function App() {
               </p>
             </div>
 
-            <OvalImage
+            <RoundedImage
               src={MicImage}
               alt="Microphone"
               width="14rem"
@@ -86,11 +103,11 @@ function App() {
       </div>
 
       <div className="App__sponsors">
-        <img src={PaperzLogo} className="App__sponsor-image" />
-        <img src={DorfusLogo} className="App__sponsor-image" />
-        <img src={MartinoLogo} className="App__sponsor-image" />
-        <img src={SquareLogo} className="App__sponsor-image" />
-        <img src={GobonaLogo} className="App__sponsor-image" />
+        <img src={PaperzLogo} className="App__sponsor-image" alt="Paperz" />
+        <img src={DorfusLogo} className="App__sponsor-image" alt="Dorfus" />
+        <img src={MartinoLogo} className="App__sponsor-image" alt="Martino" />
+        <img src={SquareLogo} className="App__sponsor-image" alt="Square" />
+        <img src={GobonaLogo} className="App__sponsor-image" alt="Gobona" />
       </div>
 
       <div className="App__genres">
@@ -140,9 +157,42 @@ function App() {
       </h1>
 
       <div className="App__features">
-        <div className="App__features-header">
-          <h1>Best Features</h1>
-          <div className="App__header-line" />
+        <div className="App__features-content">
+          <div className="App__features-header">
+            <h1>Best Features</h1>
+            <div className="App__header-line" />
+          </div>
+
+          <div className="App__feature-items">
+            {features.map((item, index) => (
+              <FeatureItem
+                index={index + 1}
+                header={item.header}
+                body={item.body}
+                textColor={
+                  index % 2 === 0
+                    ? "rgba(255, 255, 255, 0.5)"
+                    : "rgb(255, 255, 255)"
+                }
+                background={
+                  index % 2 === 0
+                    ? "linear-gradient(to bottom, color-mix(in srgb, white, rgb(var(--gray)) 90%), color-mix(in srgb, black, rgb(var(--gray)) 85%))"
+                    : `linear-gradient(to top left, color-mix(in srgb, white, rgb(${green})) -25%, rgb(${blue}))`
+                }
+              />
+            ))}
+          </div>
+        </div>
+
+        <div className="App__features-image">
+          <RoundedImage
+            src={MixingImage}
+            width="32rem"
+            height="40rem"
+            border={true}
+            borderRadius="1.25rem 1.25rem 1.25rem 16rem"
+            alt="DJ Mixing"
+          />
         </div>
       </div>
     </div>

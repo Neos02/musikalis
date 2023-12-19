@@ -6,7 +6,7 @@
   gap: 1rem;
   width: 14rem;
   height: 8rem;
-  border-radius: 20px;
+  border-radius: 1.25rem;
   background: linear-gradient(
     to bottom,
     color-mix(in srgb, white, rgb(var(--gray)) 90%),

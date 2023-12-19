@@ -115,6 +115,19 @@
   font-weight: 400;
 }
 
+.App__features {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10rem;
+}
+
+.App__features-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
 .App__features-header {
   display: flex;
   justify-content: space-between;
@@ -127,4 +140,10 @@
   flex: 1;
   height: 2px;
   background-color: white;
+}
+
+.App__feature-items {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }

@@ -1,12 +1,13 @@
 import React from "react";
 
-import "./OvalImage.css";
+import "./RoundedImage.css";
 
-const OvalImage = ({
+const RoundedImage = ({
   src,
   width,
   height,
   border = false,
+  borderRadius = width,
   imageBg = "white",
   imageX = "50%",
   imageY = "50%",
@@ -14,20 +15,27 @@ const OvalImage = ({
   alt = "",
   ...props
 }) => {
+  const calculateInnerRadius = () => {
+    return borderRadius
+      .split(" ")
+      .map((x) => `calc(${x} - .25rem)`)
+      .join(" ");
+  };
+
   return (
     <div
-      className={border ? "OvalImage__border" : ""}
+      className={border ? "RoundedImage__border" : ""}
       style={{
-        borderRadius: width,
+        borderRadius,
       }}
       {...props}
     >
       <div
-        className="OvalImage__container"
+        className="RoundedImage__container"
         style={{
           width,
           height,
-          borderRadius: width,
+          borderRadius: calculateInnerRadius(),
           background: imageBg,
         }}
       >
@@ -46,4 +54,4 @@ const OvalImage = ({
   );
 };
 
-export default OvalImage;
+export default RoundedImage;

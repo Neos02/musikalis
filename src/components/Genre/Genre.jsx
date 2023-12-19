@@ -1,6 +1,6 @@
 import React from "react";
 
-import OvalImage from "../OvalImage/OvalImage";
+import RoundedImage from "../RoundedImage/RoundedImage";
 import "./Genre.css";
 
 const Genre = ({
@@ -12,7 +12,7 @@ const Genre = ({
 }) => {
   return (
     <div className="Genre__container">
-      <OvalImage
+      <RoundedImage
         src={imageSrc}
         alt={label}
         width="18rem"

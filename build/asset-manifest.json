@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/musikalis/static/css/main.4cf8e1b2.css",
+    "main.js": "/musikalis/static/js/main.e8735e9b.js",
+    "static/js/787.90e884d4.chunk.js": "/musikalis/static/js/787.90e884d4.chunk.js",
+    "static/media/high-angle-woman-as-dj-mixing-entertaining.jpg": "/musikalis/static/media/high-angle-woman-as-dj-mixing-entertaining.2f18eaf5591494c093e2.jpg",
+    "static/media/low-angle-female-dj-club.jpg": "/musikalis/static/media/low-angle-female-dj-club.500a9a4369606f75a34f.jpg",
+    "static/media/black-standing-micropfone-studio.png": "/musikalis/static/media/black-standing-micropfone-studio.aa4ecfbb2613c7da2b7d.png",
+    "static/media/Inter-VariableFont_slnt,wght.ttf": "/musikalis/static/media/Inter-VariableFont_slnt,wght.afdb8a07907da21452bf.ttf",
+    "static/media/profile-picture-3.jpg": "/musikalis/static/media/profile-picture-3.3456d1896cf4c4f59b1b.jpg",
+    "static/media/taylor-swift.jpeg": "/musikalis/static/media/taylor-swift.8068397c9505459e1d2e.jpeg",
+    "static/media/billie-eilish.jpeg": "/musikalis/static/media/billie-eilish.02306986ed189eb35a3e.jpeg",
+    "static/media/jennie-kim.jpeg": "/musikalis/static/media/jennie-kim.28a9bb76949dadf68d14.jpeg",
+    "static/media/shirley-manson.jpeg": "/musikalis/static/media/shirley-manson.1c03e2dc9790f49b2b0a.jpeg",
+    "static/media/profile-picture-2.jpg": "/musikalis/static/media/profile-picture-2.74d9cdadee31b01db0c1.jpg",
+    "static/media/Gobona.svg": "/musikalis/static/media/Gobona.f54a5daf910c4817d20a83363178a6f9.svg",
+    "static/media/Square.svg": "/musikalis/static/media/Square.78ee58e64536a6f79f107ab3a5518ab4.svg",
+    "static/media/Paperz.svg": "/musikalis/static/media/Paperz.884dbfcfaef77f45d747cb541e69b9e7.svg",
+    "static/media/Martino.svg": "/musikalis/static/media/Martino.44692d69dd1745ae7d7d60545638c537.svg",
+    "static/media/profile-picture-1.jpg": "/musikalis/static/media/profile-picture-1.2b6d3a0243ffec877ec8.jpg",
+    "static/media/Dorfus.svg": "/musikalis/static/media/Dorfus.f9a4483816c68bdf2d03bafaefa62fff.svg",
+    "index.html": "/musikalis/index.html",
+    "main.4cf8e1b2.css.map": "/musikalis/static/css/main.4cf8e1b2.css.map",
+    "main.e8735e9b.js.map": "/musikalis/static/js/main.e8735e9b.js.map",
+    "787.90e884d4.chunk.js.map": "/musikalis/static/js/787.90e884d4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4cf8e1b2.css",
+    "static/js/main.e8735e9b.js"
+  ]
+}

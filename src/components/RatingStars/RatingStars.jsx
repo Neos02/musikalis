@@ -9,6 +9,7 @@ const RatingStars = ({ rating = 0 }) => {
     <div className="RatingStars__container">
       {[...new Array(5)].map((_, index) => (
         <FontAwesomeIcon
+          key={`RatingStar__${index}`}
           icon={faStar}
           color={index + 1 <= rating ? "orange" : "rgba(255, 255, 255, 0.8)"}
         />

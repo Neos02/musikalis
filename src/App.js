@@ -201,6 +201,7 @@ function App() {
           <div className="App__feature-items">
             {features.map((item, index) => (
               <FeatureItem
+                key={`FeatureItem__${index}`}
                 index={index + 1}
                 header={item.header}
                 body={item.body}
@@ -238,8 +239,9 @@ function App() {
         </div>
 
         <div className="App__testimonial-list">
-          {testimonials.map((testimonial) => (
+          {testimonials.map((testimonial, index) => (
             <Testimonial
+              key={`Testimonial__${index}`}
               rating={testimonial.rating}
               text={testimonial.text}
               author={testimonial.author}

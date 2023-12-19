@@ -2,6 +2,9 @@ import React from "react";
 
 import RoundedImage from "../RoundedImage/RoundedImage";
 import "./Genre.css";
+import Button from "../Button/Button";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { green } from "../../colors";
 
 const Genre = ({
   label,
@@ -21,6 +24,14 @@ const Genre = ({
         imageX={imageX}
         imageY={imageY}
       />
+
+      <a className="Genre__hover" href="#">
+        <Button
+          className="Genre__hover-btn"
+          backgroundColor={`rgb(${green})`}
+          icon={faArrowRight}
+        />
+      </a>
 
       <h2 className="Genre__label">{label}</h2>
     </div>

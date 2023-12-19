@@ -271,7 +271,7 @@ function App() {
           <Button
             label="See More"
             icon={faArrowRight}
-            backgroundColor={`rgb(${gray})`}
+            backgroundColor={"transparent"}
             textColor="rgba(255, 255, 255, .6)"
           />
         </div>

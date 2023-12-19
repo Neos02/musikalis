@@ -9,11 +9,12 @@ const Button = ({
   textColor,
   icon,
   bold = false,
+  className = "",
   ...props
 }) => {
   return (
     <button
-      className={`Button__button ${bold ? "header-4" : ""}`}
+      className={`Button__button ${bold ? "header-4" : ""} ${className}`}
       style={{ backgroundColor, color: textColor }}
       {...props}
     >

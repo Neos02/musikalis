@@ -6,4 +6,9 @@
   padding: 1rem 2.75rem;
   border: none;
   border-radius: 2rem;
+  transition: all 0.1s linear;
+}
+
+.Button__button:hover {
+  opacity: 0.6;
 }

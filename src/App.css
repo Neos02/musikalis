@@ -170,3 +170,47 @@
   justify-content: space-between;
   gap: 2rem;
 }
+
+.App__footer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3rem;
+  height: 36rem;
+  padding: 0 4rem;
+  margin-bottom: 3rem;
+  border-radius: 1.25rem;
+  background: linear-gradient(
+    to bottom,
+    color-mix(in srgb, white, rgb(var(--gray)) 90%),
+    color-mix(in srgb, black, rgb(var(--gray)) 85%)
+  );
+}
+
+.App__footer p {
+  opacity: 0.5;
+}
+
+.App__footer-text-low-opacity {
+  opacity: 0.5;
+}
+
+.App__footer-design {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40rem;
+  height: 36rem;
+  background: radial-gradient(
+    circle at 90% 25%,
+    transparent 22rem,
+    rgb(var(--blue)) 22rem,
+    color-mix(in srgb, white, rgb(var(--green))) 28rem,
+    transparent 28rem,
+    transparent 32rem,
+    color-mix(in srgb, white, rgb(var(--green))) 32rem,
+    rgb(var(--blue)) 32.5rem,
+    transparent 32.5rem
+  );
+}

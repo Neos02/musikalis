@@ -249,6 +249,35 @@ function App() {
           ))}
         </div>
       </div>
+
+      <div className="App__footer">
+        <div className="App__footer-text">
+          <h1>Start selling your music</h1>
+          <h1 className="App__footer-text-low-opacity">worldwide today</h1>
+        </div>
+        <p className="text-large">
+          Our mission at Musikalis is to give you the <br />
+          opportunity to take your music as far as you want.
+        </p>
+
+        <div className="App__hero-btns">
+          <Button
+            label="Get Started"
+            bold={true}
+            icon={faArrowRight}
+            backgroundColor={`rgb(${green})`}
+          />
+
+          <Button
+            label="See More"
+            icon={faArrowRight}
+            backgroundColor={`rgb(${gray})`}
+            textColor="rgba(255, 255, 255, .6)"
+          />
+        </div>
+
+        <div className="App__footer-design" />
+      </div>
     </div>
   );
 }

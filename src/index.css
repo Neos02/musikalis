@@ -32,6 +32,7 @@ body {
   );
   background-repeat: no-repeat;
   color: white;
+  transition: padding 0.1s linear;
 }
 
 code {
@@ -88,4 +89,23 @@ a {
 button,
 input[type="button"] {
   cursor: pointer;
+}
+
+/* Large Screens */
+@media (max-width: 1200px) {
+}
+
+/* Small Screens */
+@media (max-width: 1024px) {
+  body {
+    padding: 0 4rem;
+  }
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+}
+
+/* Mobile */
+@media (max-width: 480px) {
 }

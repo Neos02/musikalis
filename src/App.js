@@ -78,8 +78,10 @@ function App() {
 
       <div className="App__hero">
         <div className="App__header-text">
-          <h1>Music Is The Shorthand</h1>
-          <h1 className="App__header-text-low-opacity">Of Emotion</h1>
+          <h1 className="gradient-text">
+            Music Is The Shorthand <br />
+            Of Emotion
+          </h1>
         </div>
         <div>
           <p className="text-large App__subheader-text">
@@ -186,7 +188,7 @@ function App() {
         </div>
       </div>
 
-      <h1 className="App__statement">
+      <h1 className="gradient-text App__statement">
         Musikalis is the best music platform ever created, Musikalis aims to
         give new singers a place to express their work.
       </h1>
@@ -252,10 +254,12 @@ function App() {
         </div>
       </div>
 
-      <div className="App__footer">
+      <div className="gray-gradient App__footer">
         <div className="App__footer-header">
-          <h1>Start selling your music</h1>
-          <h1 className="App__footer-header-low-opacity">worldwide today</h1>
+          <h1 className="gradient-text">
+            Start selling your music <br />
+            worldwide today
+          </h1>
         </div>
 
         <p className="text-large App__footer-text">

@@ -87,6 +87,23 @@ p,
   font-size: 1rem;
 }
 
+/*            Colors            */
+
+.gradient-text {
+  background: linear-gradient(to bottom, white, rgba(255, 255, 255, 0.5));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.gray-gradient {
+  background: linear-gradient(
+    to bottom,
+    color-mix(in srgb, white, rgb(var(--gray)) 90%),
+    color-mix(in srgb, black, rgb(var(--gray)) 85%)
+  );
+}
+
 /*            Buttons and Links            */
 
 a {

@@ -20,10 +20,6 @@
   opacity: 0.9;
 }
 
-.App__header-text-low-opacity {
-  opacity: 0.5 !important;
-}
-
 .App__subheader-text {
   max-width: 35rem;
   padding-left: 0.25rem;
@@ -116,9 +112,6 @@
 .App__statement {
   width: 80%;
   margin: 12rem auto;
-  background: linear-gradient(to bottom, white, rgba(255, 255, 255, 0.5));
-  background-clip: text;
-  color: transparent;
   text-align: center;
   font-size: 4rem;
   font-weight: 400;
@@ -196,11 +189,6 @@
   padding: 0 4rem;
   margin-bottom: 3rem;
   border-radius: 1.25rem;
-  background: linear-gradient(
-    to bottom,
-    color-mix(in srgb, white, rgb(var(--gray)) 90%),
-    color-mix(in srgb, black, rgb(var(--gray)) 85%)
-  );
 }
 
 .App__footer p {

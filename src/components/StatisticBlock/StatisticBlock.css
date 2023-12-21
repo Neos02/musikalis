@@ -7,11 +7,6 @@
   width: 14rem;
   height: 8rem;
   border-radius: 1.25rem;
-  background: linear-gradient(
-    to bottom,
-    color-mix(in srgb, white, rgb(var(--gray)) 90%),
-    color-mix(in srgb, black, rgb(var(--gray)) 85%)
-  );
 }
 
 .StatisticBlock__container p {

@@ -6,7 +6,7 @@ import RatingStars from "../RatingStars/RatingStars";
 
 const Testimonial = ({ rating = 0, text, author, date, photo }) => {
   return (
-    <div className="Testimonial__container">
+    <div className="gray-gradient Testimonial__container">
       <RatingStars rating={rating} />
 
       <p className="text-large">{text}</p>

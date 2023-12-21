@@ -81,6 +81,7 @@
 }
 
 .App__sponsor-image {
+  width: 10.5rem;
   height: 3.5rem;
 }
 
@@ -234,6 +235,10 @@
     max-width: 30rem;
   }
 
+  .App__sponsor-image {
+    width: 9rem;
+  }
+
   .App__genre-header {
     font-size: 2.5rem;
   }
@@ -269,6 +274,16 @@
     display: none;
   }
 
+  .App__sponsors {
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 4rem;
+  }
+
+  .App__sponsor-image {
+    width: 50%;
+  }
+
   .App__genre-label {
     max-width: 27rem;
   }
@@ -293,6 +308,17 @@
 @media (max-width: 480px) {
   .App__header-text h1 {
     font-size: 3rem;
+  }
+
+  .App__sponsors {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .App__sponsor-image {
+    width: 9rem;
   }
 
   .App__genre-list {

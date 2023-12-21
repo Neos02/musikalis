@@ -273,7 +273,7 @@ function App() {
           <p>Our providers take a hands-on approach to help you see</p>
         </div>
 
-        <div className="App__testimonial-list">
+        <div className="App__testimonial-list animate-top">
           {testimonials.map((testimonial, index) => (
             <Testimonial
               key={`Testimonial__${index}`}
@@ -282,8 +282,6 @@ function App() {
               author={testimonial.author}
               date={testimonial.date}
               photo={testimonial.photo}
-              className="animate-top"
-              style={{ transitionDelay: `${0.15 * index}s` }}
             />
           ))}
         </div>

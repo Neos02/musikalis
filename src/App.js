@@ -6,17 +6,18 @@ import GobonaLogo from "./assets/images/Gobona.svg";
 import MartinoLogo from "./assets/images/Martino.svg";
 import PaperzLogo from "./assets/images/Paperz.svg";
 import SquareLogo from "./assets/images/Square.svg";
-import BillieEilish from "./assets/images/billie-eilish.jpeg";
-import TaylorSwift from "./assets/images/taylor-swift.jpeg";
-import ShirleyManson from "./assets/images/shirley-manson.jpeg";
-import JennieKim from "./assets/images/jennie-kim.jpeg";
-import ProfilePicture1 from "./assets/images/profile-picture-1.jpg";
-import ProfilePicture2 from "./assets/images/profile-picture-2.jpg";
-import ProfilePicture3 from "./assets/images/profile-picture-3.jpg";
-import MicImage from "./assets/images/black-standing-micropfone-studio.png";
-import DjImage from "./assets/images/low-angle-female-dj-club.jpg";
-import MixingImage from "./assets/images/high-angle-woman-as-dj-mixing-entertaining.jpg";
-import { blue, gray, green } from "./colors";
+import BillieEilish from "./assets/images/billie-eilish.webp";
+import TaylorSwift from "./assets/images/taylor-swift.webp";
+import ShirleyManson from "./assets/images/shirley-manson.webp";
+import JennieKim from "./assets/images/jennie-kim.webp";
+import ProfilePicture1 from "./assets/images/profile-picture-1.webp";
+import ProfilePicture2 from "./assets/images/profile-picture-2.webp";
+import ProfilePicture3 from "./assets/images/profile-picture-3.webp";
+import ProfilePicture4 from "./assets/images/profile-picture-4.webp";
+import MicImage from "./assets/images/black-standing-microphone-studio.webp";
+import DjImage from "./assets/images/low-angle-female-dj-club.webp";
+import MixingImage from "./assets/images/high-angle-woman-as-dj-mixing-entertaining.webp";
+import { blue, green } from "./colors";
 import Button from "./components/Button/Button";
 import Header from "./components/Header/Header";
 import RoundedImage from "./components/RoundedImage/RoundedImage";
@@ -46,7 +47,7 @@ const testimonials = [
     text: "Musikalis really helps bring my song to new listeners. Finding people who love my music makes a burnt out spirit blaze again.",
     author: "Didier Drogba",
     date: new Date("01/08/2021"),
-    photo: ProfilePicture3,
+    photo: ProfilePicture4,
   },
   {
     rating: 5,
@@ -165,26 +166,9 @@ function App() {
 
         <div className="App__genre-list">
           <Genre label="R&B" imageSrc={BillieEilish} />
-          <Genre
-            label="Pop"
-            imageSrc={TaylorSwift}
-            imageScale={1.3}
-            imageX="1.4rem"
-            imageY="1.25rem"
-          />
-          <Genre
-            label="Rock"
-            imageSrc={ShirleyManson}
-            imageScale={1.2}
-            imageY="1.5rem"
-          />
-          <Genre
-            label="Hip Hop"
-            imageSrc={JennieKim}
-            imageScale={1.3}
-            imageX="1rem"
-            imageY="-2.5rem"
-          />
+          <Genre label="Pop" imageSrc={TaylorSwift} />
+          <Genre label="Rock" imageSrc={ShirleyManson} />
+          <Genre label="Hip Hop" imageSrc={JennieKim} />
         </div>
       </div>
 

@@ -16,6 +16,7 @@ const Button = ({
     <button
       className={`Button__button ${bold ? "header-4" : ""} ${className}`}
       style={{ backgroundColor, color: textColor }}
+      aria-label={label}
       {...props}
     >
       {label && <span>{label}</span>}

@@ -16,7 +16,7 @@ const FeatureItem = ({
         background,
       }}
     >
-      <h3 className="FeatureItem__number">
+      <h3 className="FeatureItem__number" aria-hidden>
         {index.toString().padStart(2, "0")}
       </h3>
 

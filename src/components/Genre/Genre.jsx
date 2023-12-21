@@ -33,6 +33,7 @@ const Genre = ({
           className="Genre__hover-btn"
           backgroundColor={`rgb(${green})`}
           icon={faArrowRight}
+          aria-label={label}
         />
       </a>
 

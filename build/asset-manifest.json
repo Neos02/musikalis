@@ -1,31 +1,32 @@
 {
   "files": {
-    "main.css": "/musikalis/static/css/main.213e4f9e.css",
-    "main.js": "/musikalis/static/js/main.4e88fd54.js",
-    "static/js/787.90e884d4.chunk.js": "/musikalis/static/js/787.90e884d4.chunk.js",
-    "static/media/high-angle-woman-as-dj-mixing-entertaining.jpg": "/musikalis/static/media/high-angle-woman-as-dj-mixing-entertaining.2f18eaf5591494c093e2.jpg",
-    "static/media/low-angle-female-dj-club.jpg": "/musikalis/static/media/low-angle-female-dj-club.500a9a4369606f75a34f.jpg",
-    "static/media/black-standing-micropfone-studio.png": "/musikalis/static/media/black-standing-micropfone-studio.aa4ecfbb2613c7da2b7d.png",
+    "main.css": "/musikalis/static/css/main.5d1ac664.css",
+    "main.js": "/musikalis/static/js/main.0ac157b2.js",
+    "static/js/787.f3882094.chunk.js": "/musikalis/static/js/787.f3882094.chunk.js",
     "static/media/Inter-VariableFont_slnt,wght.ttf": "/musikalis/static/media/Inter-VariableFont_slnt,wght.afdb8a07907da21452bf.ttf",
-    "static/media/profile-picture-3.jpg": "/musikalis/static/media/profile-picture-3.3456d1896cf4c4f59b1b.jpg",
-    "static/media/taylor-swift.jpeg": "/musikalis/static/media/taylor-swift.8068397c9505459e1d2e.jpeg",
-    "static/media/billie-eilish.jpeg": "/musikalis/static/media/billie-eilish.02306986ed189eb35a3e.jpeg",
-    "static/media/jennie-kim.jpeg": "/musikalis/static/media/jennie-kim.28a9bb76949dadf68d14.jpeg",
-    "static/media/shirley-manson.jpeg": "/musikalis/static/media/shirley-manson.1c03e2dc9790f49b2b0a.jpeg",
-    "static/media/profile-picture-2.jpg": "/musikalis/static/media/profile-picture-2.74d9cdadee31b01db0c1.jpg",
+    "static/media/high-angle-woman-as-dj-mixing-entertaining.webp": "/musikalis/static/media/high-angle-woman-as-dj-mixing-entertaining.640ecb2459ffa6955f62.webp",
+    "static/media/taylor-swift.webp": "/musikalis/static/media/taylor-swift.ffd004a01b31f238ba15.webp",
+    "static/media/billie-eilish.webp": "/musikalis/static/media/billie-eilish.29d49fab826a2f0810ba.webp",
     "static/media/Gobona.svg": "/musikalis/static/media/Gobona.f54a5daf910c4817d20a83363178a6f9.svg",
     "static/media/Square.svg": "/musikalis/static/media/Square.78ee58e64536a6f79f107ab3a5518ab4.svg",
     "static/media/Paperz.svg": "/musikalis/static/media/Paperz.884dbfcfaef77f45d747cb541e69b9e7.svg",
+    "static/media/low-angle-female-dj-club.webp": "/musikalis/static/media/low-angle-female-dj-club.d6c1518a7d5a8a157d5b.webp",
+    "static/media/shirley-manson.webp": "/musikalis/static/media/shirley-manson.a823c09dc0ed0214c1f3.webp",
+    "static/media/jennie-kim.webp": "/musikalis/static/media/jennie-kim.547d32314d41a96c5754.webp",
     "static/media/Martino.svg": "/musikalis/static/media/Martino.44692d69dd1745ae7d7d60545638c537.svg",
-    "static/media/profile-picture-1.jpg": "/musikalis/static/media/profile-picture-1.2b6d3a0243ffec877ec8.jpg",
+    "static/media/black-standing-microphone-studio.webp": "/musikalis/static/media/black-standing-microphone-studio.ea9174b7f995992bfec9.webp",
+    "static/media/profile-picture-2.webp": "/musikalis/static/media/profile-picture-2.6b80275e849ec016f555.webp",
+    "static/media/profile-picture-4.webp": "/musikalis/static/media/profile-picture-4.f86c047f15bdc41c2123.webp",
+    "static/media/profile-picture-3.webp": "/musikalis/static/media/profile-picture-3.c09d64f8fb6ab9f30069.webp",
+    "static/media/profile-picture-1.webp": "/musikalis/static/media/profile-picture-1.77f7d18104092baa7787.webp",
     "static/media/Dorfus.svg": "/musikalis/static/media/Dorfus.f9a4483816c68bdf2d03bafaefa62fff.svg",
     "index.html": "/musikalis/index.html",
-    "main.213e4f9e.css.map": "/musikalis/static/css/main.213e4f9e.css.map",
-    "main.4e88fd54.js.map": "/musikalis/static/js/main.4e88fd54.js.map",
-    "787.90e884d4.chunk.js.map": "/musikalis/static/js/787.90e884d4.chunk.js.map"
+    "main.5d1ac664.css.map": "/musikalis/static/css/main.5d1ac664.css.map",
+    "main.0ac157b2.js.map": "/musikalis/static/js/main.0ac157b2.js.map",
+    "787.f3882094.chunk.js.map": "/musikalis/static/js/787.f3882094.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.213e4f9e.css",
-    "static/js/main.4e88fd54.js"
+    "static/css/main.5d1ac664.css",
+    "static/js/main.0ac157b2.js"
   ]
 }

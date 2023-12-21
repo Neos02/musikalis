@@ -40,6 +40,8 @@ code {
     monospace;
 }
 
+/*            Headers            */
+
 h1,
 .header-1 {
   margin: 0;
@@ -68,6 +70,8 @@ h4,
   font-weight: 600;
 }
 
+/*            Text            */
+
 .text-largest {
   font-size: 2.75rem;
 }
@@ -81,6 +85,8 @@ p,
   font-size: 1rem;
 }
 
+/*            Buttons and Links            */
+
 a {
   color: white;
   text-decoration: none;
@@ -90,6 +96,8 @@ button,
 input[type="button"] {
   cursor: pointer;
 }
+
+/*            Media Queries            */
 
 /* Small Screens */
 @media (max-width: 1024px) {

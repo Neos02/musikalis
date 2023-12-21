@@ -1,3 +1,5 @@
+/*            Hero Section            */
+
 .App__hero {
   position: relative;
   display: flex;
@@ -74,6 +76,8 @@
   margin: 5rem 0 8rem 0;
 }
 
+/*            Sponsors            */
+
 .App__sponsors {
   display: flex;
   justify-content: space-between;
@@ -84,6 +88,8 @@
   width: 10.5rem;
   height: 3.5rem;
 }
+
+/*            Genres            */
 
 .App__genre-cta {
   display: flex;
@@ -105,6 +111,8 @@
   align-items: center;
 }
 
+/*            Statement            */
+
 .App__statement {
   width: 80%;
   margin: 12rem auto;
@@ -115,6 +123,8 @@
   font-size: 4rem;
   font-weight: 400;
 }
+
+/*            Features            */
 
 .App__features {
   display: flex;
@@ -150,6 +160,8 @@
   gap: 2rem;
 }
 
+/*            Testimonials            */
+
 .App__testimonials {
   display: flex;
   flex-direction: column;
@@ -171,6 +183,8 @@
   justify-content: space-between;
   gap: 2rem;
 }
+
+/*            Footer            */
 
 .App__footer {
   position: relative;
@@ -215,6 +229,8 @@
     transparent 32.5rem
   );
 }
+
+/*            Media Queries            */
 
 @media (max-width: 1344px) {
   .App__hero-images {
@@ -291,6 +307,10 @@
   .App__genre-header {
     font-size: 2rem;
   }
+
+  .App__statement {
+    font-size: 3rem;
+  }
 }
 
 @media (max-width: 768px) {
@@ -302,6 +322,10 @@
     flex-direction: column;
     gap: 1.5rem;
     text-align: center;
+  }
+
+  .App__statement {
+    font-size: 2rem;
   }
 }
 

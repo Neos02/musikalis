@@ -10,6 +10,13 @@
   opacity: 1 !important;
 }
 
+.Genre__image {
+  width: 18vw;
+  height: 26vw;
+  max-width: 18rem;
+  max-height: 26rem;
+}
+
 .Genre__label {
   margin: 1.5rem 0;
   text-align: center;
@@ -25,9 +32,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 18rem;
-  height: 26rem;
-  border-radius: 18rem;
+  width: 18vw;
+  height: 26vw;
+  max-width: 18rem;
+  max-height: 26rem;
+  border-radius: 25vw;
   background-color: rgba(0, 0, 0, 0.6);
   cursor: pointer;
   transition: all 0.1s linear;
@@ -42,4 +51,20 @@
   height: 3rem !important;
   padding: 0 !important;
   transform: rotate(-45deg) scale(1.5);
+}
+
+@media (max-width: 1200px) {
+  .Genre__image,
+  .Genre__hover {
+    width: 14rem !important;
+    height: 20rem !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .Genre__image,
+  .Genre__hover {
+    width: 12.5rem !important;
+    height: 18rem !important;
+  }
 }

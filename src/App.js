@@ -148,7 +148,7 @@ function App() {
       <div className="App__genres">
         <div className="App__genre-cta">
           <div className="App__genre-label">
-            <h1>Choose your favorite genre</h1>
+            <h1 className="App__genre-header">Choose your favorite genre</h1>
             <p>
               Music genres from all over the world are here, choose one of them.
             </p>
@@ -167,14 +167,14 @@ function App() {
             label="Pop"
             imageSrc={TaylorSwift}
             imageScale={1.3}
-            imageX="2rem"
+            imageX="1.4rem"
             imageY="1.25rem"
           />
           <Genre
             label="Rock"
             imageSrc={ShirleyManson}
             imageScale={1.2}
-            imageY="2rem"
+            imageY="1.5rem"
           />
           <Genre
             label="Hip Hop"

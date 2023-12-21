@@ -27,6 +27,8 @@ const RoundedImage = ({
       className={border ? "RoundedImage__border" : ""}
       style={{
         borderRadius,
+        width,
+        height,
       }}
       {...props}
     >

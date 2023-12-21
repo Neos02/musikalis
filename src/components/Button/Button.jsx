@@ -6,7 +6,7 @@ import "./Button.css";
 const Button = ({
   label,
   backgroundColor,
-  textColor,
+  textColor = "black",
   icon,
   bold = false,
   className = "",

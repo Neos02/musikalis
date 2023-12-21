@@ -15,15 +15,18 @@ const Genre = ({
 }) => {
   return (
     <div className="Genre__container">
-      <RoundedImage
-        src={imageSrc}
-        alt={label}
-        width="18rem"
-        height="26rem"
-        scale={imageScale}
-        imageX={imageX}
-        imageY={imageY}
-      />
+      <div className="Genre__image">
+        <RoundedImage
+          src={imageSrc}
+          alt={label}
+          width="100%"
+          height="100%"
+          borderRadius="26vw"
+          scale={imageScale}
+          imageX={imageX}
+          imageY={imageY}
+        />
+      </div>
 
       <a className="Genre__hover" href="#">
         <Button

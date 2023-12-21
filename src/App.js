@@ -25,6 +25,7 @@ import Header from "./components/Header/Header";
 import RoundedImage from "./components/RoundedImage/RoundedImage";
 import StatisticBlock from "./components/StatisticBlock/StatisticBlock";
 import Testimonial from "./components/Testimonial/Testimonial";
+import { useEffect } from "react";
 
 const features = [
   {
@@ -73,25 +74,53 @@ const testimonials = [
 ];
 
 function App() {
+  useEffect(() => {
+    const observe = (className) => {
+      const animate = document.getElementsByClassName(className);
+
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("scroll-animation");
+            }
+          });
+        },
+        { threshold: 0.5 }
+      );
+
+      for (let i = 0; i < animate.length; i++) {
+        observer.observe(animate[i]);
+      }
+    };
+
+    observe("animate-left");
+    observe("animate-right");
+    observe("animate-top");
+  }, []);
+
   return (
     <div>
       <Header />
 
       <div className="App__hero">
-        <div className="App__header-text">
+        <div className="App__header-text animate-left">
           <h1 className="gradient-text">
             Music Is The Shorthand <br />
             Of Emotion
           </h1>
         </div>
-        <div>
+        <div className="animate-left" style={{ transitionDelay: ".15s" }}>
           <p className="text-large App__subheader-text">
             It's our mission at Musikalis to give you the opportunities to take
             your music as far as you want it to go.
           </p>
         </div>
 
-        <div className="App__hero-btns">
+        <div
+          className="App__hero-btns animate-left"
+          style={{ transitionDelay: ".3s" }}
+        >
           <Button
             label="Get Started"
             bold={true}
@@ -107,7 +136,7 @@ function App() {
           />
         </div>
 
-        <div className="App__hero-images">
+        <div className="App__hero-images animate-right">
           <RoundedImage
             src={DjImage}
             alt="DJ"
@@ -135,7 +164,10 @@ function App() {
         </div>
       </div>
 
-      <div className="App__statistics">
+      <div
+        className="App__statistics animate-left"
+        style={{ transitionDelay: ".45s" }}
+      >
         <StatisticBlock count="320K" unit="Customers" />
         <StatisticBlock count="47K" unit="Tracks" />
       </div>
@@ -165,14 +197,29 @@ function App() {
         </div>
 
         <div className="App__genre-list">
-          <Genre label="R&B" imageSrc={BillieEilish} />
-          <Genre label="Pop" imageSrc={TaylorSwift} />
-          <Genre label="Rock" imageSrc={ShirleyManson} />
-          <Genre label="Hip Hop" imageSrc={JennieKim} />
+          <Genre label="R&B" imageSrc={BillieEilish} className="animate-left" />
+          <Genre
+            label="Pop"
+            imageSrc={TaylorSwift}
+            className="animate-left"
+            style={{ transitionDelay: "0.15s" }}
+          />
+          <Genre
+            label="Rock"
+            imageSrc={ShirleyManson}
+            className="animate-left"
+            style={{ transitionDelay: "0.3s" }}
+          />
+          <Genre
+            label="Hip Hop"
+            imageSrc={JennieKim}
+            className="animate-left"
+            style={{ transitionDelay: "0.45s" }}
+          />
         </div>
       </div>
 
-      <h1 className="gradient-text App__statement">
+      <h1 className="gradient-text App__statement animate-top">
         Musikalis is the best music platform ever created, Musikalis aims to
         give new singers a place to express their work.
       </h1>
@@ -201,12 +248,14 @@ function App() {
                     ? "linear-gradient(to bottom, color-mix(in srgb, white, rgb(var(--gray)) 90%), color-mix(in srgb, black, rgb(var(--gray)) 85%))"
                     : `linear-gradient(to top left, color-mix(in srgb, white, rgb(${green})) -25%, rgb(${blue}))`
                 }
+                className="animate-left"
+                style={{ transitionDelay: `${0.15 * index}s` }}
               />
             ))}
           </div>
         </div>
 
-        <div className="App__features-image">
+        <div className="App__features-image animate-right">
           <RoundedImage
             src={MixingImage}
             width="32rem"
@@ -233,12 +282,14 @@ function App() {
               author={testimonial.author}
               date={testimonial.date}
               photo={testimonial.photo}
+              className="animate-top"
+              style={{ transitionDelay: `${0.15 * index}s` }}
             />
           ))}
         </div>
       </div>
 
-      <div className="gray-gradient App__footer">
+      <div className="gray-gradient App__footer animate-top">
         <div className="App__footer-header">
           <h1 className="gradient-text">
             Start selling your music <br />

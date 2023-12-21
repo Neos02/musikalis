@@ -4,9 +4,20 @@ import "./Testimonial.css";
 import RoundedImage from "../RoundedImage/RoundedImage";
 import RatingStars from "../RatingStars/RatingStars";
 
-const Testimonial = ({ rating = 0, text, author, date, photo }) => {
+const Testimonial = ({
+  rating = 0,
+  text,
+  author,
+  date,
+  photo,
+  className = "",
+  ...props
+}) => {
   return (
-    <div className="gray-gradient Testimonial__container">
+    <div
+      className={`gray-gradient Testimonial__container ${className}`}
+      {...props}
+    >
       <RatingStars rating={rating} />
 
       <p className="text-large">{text}</p>

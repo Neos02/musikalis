@@ -12,9 +12,11 @@ const Genre = ({
   imageScale = 1,
   imageX = "50%",
   imageY = "50%",
+  className = "",
+  ...props
 }) => {
   return (
-    <div className="Genre__container">
+    <div className={`Genre__container ${className}`} {...props}>
       <div className="Genre__image">
         <RoundedImage
           src={imageSrc}

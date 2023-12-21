@@ -86,7 +86,7 @@ function App() {
         </div>
         <div>
           <p className="text-large App__subheader-text">
-            It's our mission at RouteNote to give you the opportunities to take
+            It's our mission at Musikalis to give you the opportunities to take
             your music as far as you want it to go.
           </p>
         </div>

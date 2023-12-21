@@ -91,10 +91,6 @@ input[type="button"] {
   cursor: pointer;
 }
 
-/* Large Screens */
-@media (max-width: 1200px) {
-}
-
 /* Small Screens */
 @media (max-width: 1024px) {
   body {
@@ -104,8 +100,7 @@ input[type="button"] {
 
 /* Tablets */
 @media (max-width: 768px) {
-}
-
-/* Mobile */
-@media (max-width: 480px) {
+  body {
+    padding: 0 2rem;
+  }
 }

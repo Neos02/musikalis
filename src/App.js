@@ -83,8 +83,8 @@ function App() {
         </div>
         <div>
           <p className="text-large App__subheader-text">
-            It's our mission at RouteNote to give you the opportunities <br />
-            to take your music as far as you want it to go.
+            It's our mission at RouteNote to give you the opportunities to take
+            your music as far as you want it to go.
           </p>
         </div>
 
@@ -99,7 +99,7 @@ function App() {
           <Button
             label="See More"
             icon={faArrowRight}
-            backgroundColor={`rgb(${gray})`}
+            backgroundColor="transparent"
             textColor="rgba(255, 255, 255, .6)"
           />
         </div>

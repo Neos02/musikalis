@@ -240,6 +240,14 @@
   .App__hero-images-right {
     display: none;
   }
+
+  .App__features-image {
+    display: none;
+  }
+
+  .App__features-content {
+    width: 100%;
+  }
 }
 
 @media (max-width: 1200px) {

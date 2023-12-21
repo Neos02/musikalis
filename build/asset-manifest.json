@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/musikalis/static/css/main.72cdefb8.css",
-    "main.js": "/musikalis/static/js/main.72f95934.js",
+    "main.js": "/musikalis/static/js/main.c61d52c6.js",
     "static/js/787.f3882094.chunk.js": "/musikalis/static/js/787.f3882094.chunk.js",
     "static/media/Inter-VariableFont_slnt,wght.ttf": "/musikalis/static/media/Inter-VariableFont_slnt,wght.afdb8a07907da21452bf.ttf",
     "static/media/high-angle-woman-as-dj-mixing-entertaining.webp": "/musikalis/static/media/high-angle-woman-as-dj-mixing-entertaining.640ecb2459ffa6955f62.webp",
@@ -22,11 +22,11 @@
     "static/media/Dorfus.svg": "/musikalis/static/media/Dorfus.f9a4483816c68bdf2d03bafaefa62fff.svg",
     "index.html": "/musikalis/index.html",
     "main.72cdefb8.css.map": "/musikalis/static/css/main.72cdefb8.css.map",
-    "main.72f95934.js.map": "/musikalis/static/js/main.72f95934.js.map",
+    "main.c61d52c6.js.map": "/musikalis/static/js/main.c61d52c6.js.map",
     "787.f3882094.chunk.js.map": "/musikalis/static/js/787.f3882094.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.72cdefb8.css",
-    "static/js/main.72f95934.js"
+    "static/js/main.c61d52c6.js"
   ]
 }

@@ -253,16 +253,17 @@ function App() {
       </div>
 
       <div className="App__footer">
-        <div className="App__footer-text">
+        <div className="App__footer-header">
           <h1>Start selling your music</h1>
-          <h1 className="App__footer-text-low-opacity">worldwide today</h1>
+          <h1 className="App__footer-header-low-opacity">worldwide today</h1>
         </div>
-        <p className="text-large">
+
+        <p className="text-large App__footer-text">
           Our mission at Musikalis is to give you the <br />
           opportunity to take your music as far as you want.
         </p>
 
-        <div className="App__hero-btns">
+        <div className="App__footer-btns">
           <Button
             label="Get Started"
             bold={true}

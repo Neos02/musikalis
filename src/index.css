@@ -119,4 +119,16 @@ input[type="button"] {
   body {
     padding: 0 2rem;
   }
+
+  h1,
+  .header-1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  h1,
+  .header-1 {
+    font-size: 2rem;
+  }
 }

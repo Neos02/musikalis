@@ -42,6 +42,7 @@ const Header = () => {
         backgroundColor="transparent"
         textColor="white"
         onClick={() => setMenuOpen((prevMenuOpen) => !prevMenuOpen)}
+        aria-label="Menu"
       />
     </header>
   );

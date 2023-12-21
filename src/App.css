@@ -335,6 +335,12 @@
   .App__statement {
     font-size: 2rem;
   }
+
+  .App__testimonial-list {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
 }
 
 @media (max-width: 480px) {

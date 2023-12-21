@@ -17,6 +17,7 @@
 
 html {
   font-size: 16px;
+  overflow-x: hidden;
 }
 
 body {
@@ -32,6 +33,7 @@ body {
   );
   background-repeat: no-repeat;
   color: white;
+  overflow-x: hidden;
   transition: padding 0.1s linear;
 }
 
@@ -98,6 +100,12 @@ input[type="button"] {
 }
 
 /*            Media Queries            */
+
+@media (min-width: 1826px) {
+  body {
+    padding: 0 calc(50% - 813px);
+  }
+}
 
 /* Small Screens */
 @media (max-width: 1024px) {

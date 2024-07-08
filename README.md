@@ -2,6 +2,8 @@
 
 A clone of the design from https://dribbble.com/shots/21100671-Musikalis-Music-Platform-Website
 
+Live Site: https://neos02.github.io/musikalis/
+
 ## Image Credits
 
 - Image by [Freepik](https://www.freepik.com/free-photo/low-angle-female-dj-club_5795392.htm#page=2&position=9&from_view=collections)
